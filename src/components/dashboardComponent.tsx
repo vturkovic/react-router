@@ -1,6 +1,8 @@
-const DashboardComponent = () => {
+import { FC } from 'react';
+
+const DashboardComponent: FC = () => {
   return (
-      <h2>Dashboard</h2>
+      <h1>Dashboard</h1>
   );
 };
 

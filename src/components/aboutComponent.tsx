@@ -1,6 +1,8 @@
-const AboutComponent = () => {
+import { FC } from 'react';
+
+const AboutComponent: FC = () => {
   return (
-      <h2>About</h2>
+      <h1>About</h1>
   );
 };
 

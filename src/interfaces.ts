@@ -1,3 +1,8 @@
-export interface User {
-    name: string
+export interface SidebarItemInterface {
+    title: string,
+    route: string
+}
+
+export interface SidebarItemsInterface {
+    items: SidebarItemInterface[]
 }

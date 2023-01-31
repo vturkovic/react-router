@@ -1,0 +1,19 @@
+.container-fluid {
+    height: 100vh;
+}
+
+.row {
+    height: 100%;
+}
+
+.col-1 {
+    background-color: #212529
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    color: #A3A6A8
+}

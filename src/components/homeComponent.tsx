@@ -1,6 +1,8 @@
-const HomeComponent = () => {
+import { FC } from 'react';
+
+const HomeComponent: FC = () => {
   return (
-      <h2>Home</h2>
+      <h1>Home</h1>
   );
 };
 
