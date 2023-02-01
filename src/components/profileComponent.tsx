@@ -1,9 +1,5 @@
-import { FC } from 'react';
-
-const ProfileComponent: FC = () => {
+export const ProfileComponent = () => {
   return (
       <h1>Profile</h1>
   );
 };
-
-export default ProfileComponent;

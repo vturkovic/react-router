@@ -1,9 +1,5 @@
-import { FC } from 'react';
-
-const DashboardComponent: FC = () => {
+export const DashboardComponent = () => {
   return (
       <h1>Dashboard</h1>
   );
 };
-
-export default DashboardComponent;

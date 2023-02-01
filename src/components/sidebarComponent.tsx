@@ -1,9 +1,8 @@
-import { FC } from 'react';
 import { Nav, NavItem, NavLink } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 import { SidebarItemsInterface  } from '../interfaces';
 
-const SidebarComponent: FC<SidebarItemsInterface> = ({ items }) => {
+export const SidebarComponent = ({ items } : SidebarItemsInterface) => {
   const location = useLocation();
 
   return (
@@ -18,5 +17,3 @@ const SidebarComponent: FC<SidebarItemsInterface> = ({ items }) => {
     </Nav>
   );
 };
-
-export default SidebarComponent;
