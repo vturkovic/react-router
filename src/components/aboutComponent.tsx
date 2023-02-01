@@ -1,9 +1,5 @@
-import { FC } from 'react';
-
-const AboutComponent: FC = () => {
+export const AboutComponent = () => {
   return (
       <h1>About</h1>
   );
 };
-
-export default AboutComponent;

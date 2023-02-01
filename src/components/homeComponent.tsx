@@ -1,9 +1,5 @@
-import { FC } from 'react';
-
-const HomeComponent: FC = () => {
+export const HomeComponent = () => {
   return (
       <h1>Home</h1>
   );
 };
-
-export default HomeComponent;

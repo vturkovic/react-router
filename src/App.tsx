@@ -1,11 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
-import SidebarComponent from './components/sidebarComponent';
-import HomeComponent from './components/homeComponent';
-import AboutComponent from './components/aboutComponent';
-import DashboardComponent from './components/dashboardComponent';
-import ProfileComponent from './components/profileComponent';
+import {
+  SidebarComponent,
+  HomeComponent,
+  AboutComponent,
+  DashboardComponent,
+  ProfileComponent,  
+} from './components/index';
 import { SidebarItemInterface } from './interfaces';
 
 const App = () => {
